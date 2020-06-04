@@ -94,7 +94,7 @@ class IkeScanWrapper(object):
                 raise Exception("Cannot find ike-scan in system PATH")
 
 
-def self.execve(command):
+def execve(command):
     """
     Executes a program in a new process.
         @param command: absolute executable path
